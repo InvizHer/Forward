@@ -1,10 +1,10 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/PIROXTG/Forward.git /Forward
+  git clone https://github.com/InvizHer/Piro-forword.git /Forward
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /Forward
+  git clone $UPSTREAM_REPO /Piro-Forward
 fi
 cd /Forward
 pip3 install -U -r requirements.txt
